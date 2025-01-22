@@ -1,0 +1,7 @@
+name = "socks5-proxy"
+main = "src/worker.js"
+compatibility_date = "2024-01-22"
+
+kv_namespaces = [
+  { binding = "PROXY_CONFIG", id = "f745d5be084f402287818549ebbd6aec" }  # 需要替换为你的 KV 命名空间 ID
+]
